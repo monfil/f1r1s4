@@ -1,0 +1,18 @@
+students = [[name, cal],...[name, cal]]
+best_students(students)
+	best_students = []
+	cal, nam = 0, 0
+	while nam < total_students
+		current_student = students[nam][cal]
+		if current_student[cal] = 10
+			push name of current_student in best_students
+		end
+		if cal = total_students -1
+			cal = 0
+			nam = nam + 1
+		else
+			cal = cal + 1
+		end
+	end
+	return best_students
+end
